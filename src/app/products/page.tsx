@@ -23,7 +23,7 @@ export default async function ProductsPage() {
       <section className="hero-plane" style={{ minHeight: "42vh" }}>
         <div className="hero-plane__media">
           <Image
-            src="/media/products/construction-kidzonea-c-wet-dry-combo.jpg"
+            src="/media/products/candy-kidzonea-c-wet-dry-combo.jpg"
             alt="Commercial inflatables from the Cutting Edge Creations catalog"
             fill
             priority

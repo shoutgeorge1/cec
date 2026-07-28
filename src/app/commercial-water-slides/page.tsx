@@ -40,7 +40,7 @@ export default async function CommercialWaterSlidesPage({
       productName="Commercial Water Slides"
       productDescription="Commercial inflatable water slides for sale to rental operators and venues. Request specs and quote."
       category="Commercial Water Slides"
-      heroImage="/media/products/wacky-mini-deluxea-c-18aeur-tm-slide-wet-dry.jpg"
+      heroImage="/media/products/atlantis-club-slide-combo-commercial-inflatable-bounce-house.jpg"
       variant={sp.v ?? sp.variant}
     />
   );

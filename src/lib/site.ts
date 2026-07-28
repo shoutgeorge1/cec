@@ -46,7 +46,7 @@ export const categoryPages = [
     title: "Commercial Water Slides",
     navLabel: "Water Slides",
     blurb: "Wet/dry slides that drive summer bookings and high ticket rentals.",
-    image: "/media/products/wacky-mini-deluxea-c-18aeur-tm-slide-wet-dry.jpg",
+    image: "/media/products/atlantis-club-slide-combo-commercial-inflatable-bounce-house.jpg",
     keywordsHint: "commercial water slide · inflatable water slide for sale",
   },
   {

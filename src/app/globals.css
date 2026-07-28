@@ -199,7 +199,7 @@ a {
   object-fit: cover;
   object-position: center 35%;
   /* Tasteful lift — keep photos sunny without cartooning */
-  filter: brightness(1.07) contrast(1.05) saturate(1.06);
+  filter: brightness(1.1) contrast(1.06) saturate(1.08);
 }
 
 .hero-plane__shade {
@@ -207,10 +207,10 @@ a {
   inset: 0;
   z-index: 1;
   pointer-events: none;
-  /* Light scrim for text only — do not crush the photo */
+  /* Soft text scrim only — let sunny outdoor photos read bright */
   background:
-    linear-gradient(90deg, rgba(19, 20, 21, 0.38) 0%, rgba(19, 20, 21, 0.14) 42%, rgba(19, 20, 21, 0.02) 100%),
-    linear-gradient(180deg, rgba(19, 20, 21, 0.1) 0%, transparent 45%, rgba(19, 20, 21, 0.4) 100%);
+    linear-gradient(90deg, rgba(19, 20, 21, 0.28) 0%, rgba(19, 20, 21, 0.08) 45%, transparent 100%),
+    linear-gradient(180deg, rgba(19, 20, 21, 0.06) 0%, transparent 48%, rgba(19, 20, 21, 0.32) 100%);
 }
 
 .hero-plane__content {

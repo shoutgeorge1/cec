@@ -26,7 +26,7 @@ export default async function HomePage() {
       <section className="hero-plane hero-pan">
         <div className="hero-plane__media">
           <Image
-            src="/media/hero/barnyard-breakout-main.jpg"
+            src="/media/products/construction-kidzonea-c-wet-dry-combo.jpg"
             alt="Commercial inflatable obstacle course from Cutting Edge Creations"
             fill
             priority
