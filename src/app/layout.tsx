@@ -11,14 +11,14 @@ import "./globals.css";
 const body = Source_Sans_3({
   subsets: ["latin"],
   variable: "--font-body",
-  weight: ["400", "600", "700"],
+  weight: ["400", "600", "700", "800"],
 });
 
-/** Matches Shopify Paper theme: nav = Montserrat. */
+/** Matches Shopify Paper theme: nav / CTAs = Montserrat (assertive weights for PPC). */
 const nav = Montserrat({
   subsets: ["latin"],
   variable: "--font-nav",
-  weight: ["400", "500", "600", "700"],
+  weight: ["500", "600", "700", "800"],
 });
 
 export const metadata: Metadata = buildMetadata({

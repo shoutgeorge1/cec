@@ -15,14 +15,14 @@ export function Header() {
             className="h-9 w-auto sm:h-10"
             priority
           />
-          <span className="font-nav hidden text-[10px] uppercase tracking-[0.16em] text-ink-muted sm:block">
+          <span className="font-nav hidden text-[10px] font-bold uppercase tracking-[0.18em] text-ink sm:block">
             Commercial · For sale
           </span>
         </Link>
 
         <nav
           aria-label="Primary"
-          className="font-nav hidden items-center gap-5 text-[12px] font-medium uppercase tracking-[0.06em] text-ink-soft lg:flex"
+          className="font-nav hidden items-center gap-5 text-[12px] font-bold uppercase tracking-[0.08em] text-ink lg:flex"
         >
           {navLinks.map((link) => (
             <Link
@@ -35,14 +35,17 @@ export function Header() {
           ))}
         </nav>
 
-        <Link href="/request-a-quote" className="btn-primary shrink-0 !px-3 !py-2 text-[11px]">
+        <Link
+          href="/request-a-quote"
+          className="btn-primary shrink-0 !px-3.5 !py-2.5 !text-[11px]"
+        >
           Request a quote
         </Link>
       </div>
 
       <nav
         aria-label="Mobile categories"
-        className="font-nav flex gap-4 overflow-x-auto border-t border-[var(--line)] px-4 py-2 text-[11px] uppercase tracking-[0.08em] text-ink-soft lg:hidden"
+        className="font-nav flex gap-4 overflow-x-auto border-t border-[var(--line)] px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.1em] text-ink-soft lg:hidden"
       >
         {navLinks.slice(0, 6).map((link) => (
           <Link key={link.href} href={link.href} className="whitespace-nowrap">

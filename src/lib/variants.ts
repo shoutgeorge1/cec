@@ -3,6 +3,9 @@
  *
  * Manual for now: append `?v=a` or `?v=b` (also accepts `?variant=`).
  * Default is `a`. See website/README.md → “Landing page A/B variants”.
+ *
+ * Homepage stays a single strong PPC converter for now; offer A/B on `/`
+ * comes next — do not overbuild a homepage variant system yet.
  */
 
 export type OfferVariantId = "a" | "b";

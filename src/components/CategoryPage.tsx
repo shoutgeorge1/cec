@@ -59,14 +59,14 @@ export function CategoryPage({
         <div className="hero-plane__shade" />
         <div className="hero-plane__content mx-auto flex min-h-[52vh] max-w-6xl items-end px-4 pb-12 pt-16 sm:px-6">
           <div className="max-w-3xl text-white">
-            <p className="font-nav text-[11px] font-semibold uppercase tracking-[0.2em] text-primary">
+            <p className="eyebrow text-primary">
               {eyebrow}
               {offer.eyebrowSuffix || ""}
             </p>
-            <h1 className="mt-3 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
+            <h1 className="headline-hero mt-3 text-4xl text-white sm:text-5xl md:text-6xl">
               {title}
             </h1>
-            <p className="mt-5 max-w-2xl text-base leading-relaxed text-white/85 md:text-lg">
+            <p className="mt-4 max-w-2xl text-base leading-snug text-white/90 md:text-lg">
               {intro}
             </p>
             <p className="mt-4 max-w-xl text-sm font-semibold text-primary">
@@ -99,7 +99,7 @@ export function CategoryPage({
 
       <section className="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-[1.3fr_0.7fr]">
         <div>
-          <h2 className="text-3xl font-bold text-ink">
+          <h2 className="headline text-2xl sm:text-3xl">
             What buyers usually need next
           </h2>
           <p className="mt-3 max-w-xl text-ink-soft">{offer.supportLine}</p>

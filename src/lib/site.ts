@@ -5,10 +5,10 @@ export const siteConfig = {
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://127.0.0.1:4351",
   shopifyUrl: "https://cuttingedgecreations.com",
   description:
-    "USA manufacturer of commercial-grade inflatables for rental operators, entertainment venues, and event professionals. Browse the catalog or request a quote.",
+    "Commercial inflatables for sale — bounce houses, water slides, and obstacle courses for rental operators and venues. Request a quote or talk to sales.",
   phone: process.env.NEXT_PUBLIC_PHONE ?? "",
   email: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "sales@cuttingedgecreations.com",
-  tagline: "Commercial inflatables built for operators who book every weekend.",
+  tagline: "Commercial inflatables for sale — request a quote.",
 } as const;
 
 export const navLinks = [

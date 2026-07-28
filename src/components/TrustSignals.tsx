@@ -1,28 +1,28 @@
 const signals = [
   {
-    title: "Built for commercial use",
-    body: "Units sized and specified for rental fleets, venues, and high-frequency events—not backyard toy inflatables.",
+    title: "Commercial-grade",
+    body: "Built for rental fleets, venues, and high-frequency events.",
   },
   {
-    title: "Sales-assisted buying",
-    body: "Get help matching capacity, layout, and budget. Request specs before you commit capital.",
+    title: "For sale — not rental",
+    body: "Buy inventory. Specs and packaging through sales when you need them.",
   },
   {
-    title: "Catalog + quote path",
-    body: "Browse product families online, then submit a structured quote for multi-unit or custom orders.",
+    title: "USA · Sales-assisted",
+    body: "Talk to sales or request a quote for multi-unit and custom orders.",
   },
 ] as const;
 
 export function TrustSignals() {
   return (
     <section className="border-b border-[var(--line)] bg-white">
-      <div className="mx-auto grid max-w-6xl gap-8 px-4 py-12 sm:px-6 md:grid-cols-3">
+      <div className="mx-auto grid max-w-6xl gap-6 px-4 py-7 sm:px-6 md:grid-cols-3 md:gap-8 md:py-8">
         {signals.map((item) => (
-          <div key={item.title} className="border-l-2 border-primary pl-4">
-            <h3 className="text-lg font-bold text-ink">{item.title}</h3>
-            <p className="mt-2 text-sm leading-relaxed text-ink-soft">
-              {item.body}
-            </p>
+          <div key={item.title} className="border-l-[3px] border-primary pl-3.5">
+            <h3 className="font-nav text-[13px] font-bold uppercase tracking-[0.06em] text-ink">
+              {item.title}
+            </h3>
+            <p className="mt-1.5 text-sm leading-snug text-ink-soft">{item.body}</p>
           </div>
         ))}
       </div>

@@ -28,9 +28,9 @@ Inspected live theme CSS variables and type stack (theme `t/25`):
 
 | Token | Shopify value | Marketing site |
 |---|---|---|
-| Body / headings | `"Source Sans Pro", sans-serif` | `Source_Sans_3` via `next/font` (Pro successor) |
-| Nav | `Montserrat, sans-serif` | `Montserrat` via `next/font` |
-| Base size | `15px` | `15px` |
+| Body / headings | `"Source Sans Pro", sans-serif` (often weight 400) | `Source_Sans_3` 400–800; headlines use **800** + tighter tracking for PPC contrast |
+| Nav / CTAs | `Montserrat, sans-serif` | `Montserrat` 500–800; nav **bold**, CTAs **700** + stronger letter-spacing |
+| Base size | `15px` | `16px` body (slightly denser lander readability) |
 | Background | `#ffffff` | `#ffffff` |
 | Neutral / warm | `#f2e8d8` | `--bg-neutral` |
 | Primary CTA | `#ff9f00` | `--primary` |
@@ -114,6 +114,7 @@ Light offer testing without rebuilding the design system:
 - Append **`?v=a`** (default) or **`?v=b`** on category / wholesale landers.
 - Alias: `?variant=a|b`
 - Config: `src/lib/variants.ts`
+- **Homepage** (`/`) is intentionally a single PPC converter baseline for now. Homepage offer A/B tests come next — keep `?v=` machinery on category pages; do not overbuild a homepage variant system yet.
 
 | Variant | Primary CTA | Secondary |
 |---|---|---|

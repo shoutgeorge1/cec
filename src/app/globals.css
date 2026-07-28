@@ -8,6 +8,11 @@
   --color__background-neutral: #f2e8d8
   --color__foreground-primary: #131415
   Body/headers: Source Sans Pro · Nav: Montserrat
+
+  Typography is intentionally stronger than the live Paper defaults (weight 400
+  headers read weak on a paid-search lander). Stay in-family; bump size/weight/
+  tracking for headlines and Montserrat CTAs. Homepage A/B offer tests next —
+  keep ?v= on category landers; default home is the converter baseline.
 */
 
 :root {
@@ -15,14 +20,14 @@
   --bg-neutral: #f2e8d8;
   --bg-plain: #e6e6e6;
   --ink: #131415;
-  --ink-soft: #4a4d52;
-  --ink-muted: #6b6f76;
+  --ink-soft: #3a3d42;
+  --ink-muted: #5c6068;
   --primary: #ff9f00;
   --primary-hover: #e89000;
   --tertiary: #2e86cd;
   --tertiary-hover: #246ea8;
   --line: rgba(19, 20, 21, 0.12);
-  --line-strong: rgba(19, 20, 21, 0.22);
+  --line-strong: rgba(19, 20, 21, 0.28);
   --background: var(--bg);
   --foreground: var(--ink);
 }
@@ -59,9 +64,11 @@ body {
   background: var(--bg);
   color: var(--ink);
   font-family: var(--font-body), "Source Sans Pro", "Source Sans 3", sans-serif;
-  font-size: 15px;
-  line-height: 1.55;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
   text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -82,6 +89,30 @@ a {
   font-family: var(--font-body), "Source Sans Pro", "Source Sans 3", sans-serif;
 }
 
+/* Display / section headlines — Source Sans, heavy, tight leading */
+.headline {
+  font-family: var(--font-body), "Source Sans Pro", "Source Sans 3", sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 1.05;
+  color: var(--ink);
+}
+
+.headline-hero {
+  font-family: var(--font-body), "Source Sans Pro", "Source Sans 3", sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.02;
+}
+
+.eyebrow {
+  font-family: var(--font-nav), Montserrat, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
 .btn-primary {
   display: inline-flex;
   align-items: center;
@@ -89,14 +120,14 @@ a {
   background: var(--primary);
   color: var(--ink);
   font-family: var(--font-nav), Montserrat, sans-serif;
-  font-size: 0.8125rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding: 0.85rem 1.35rem;
+  padding: 0.95rem 1.5rem;
   border: none;
   border-radius: 2px;
-  transition: background 0.15s ease;
+  transition: background 0.15s ease, transform 0.15s ease;
 }
 
 .btn-primary:hover {
@@ -111,11 +142,11 @@ a {
   color: var(--ink);
   font-family: var(--font-nav), Montserrat, sans-serif;
   font-size: 0.8125rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
+  font-weight: 700;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
-  padding: 0.85rem 1.35rem;
-  border: 1px solid var(--line-strong);
+  padding: 0.95rem 1.35rem;
+  border: 1.5px solid var(--line-strong);
   border-radius: 2px;
   transition: border-color 0.15s ease, color 0.15s ease;
 }
@@ -132,11 +163,11 @@ a {
   background: var(--tertiary);
   color: #fff;
   font-family: var(--font-nav), Montserrat, sans-serif;
-  font-size: 0.8125rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding: 0.85rem 1.35rem;
+  padding: 0.95rem 1.5rem;
   border: none;
   border-radius: 2px;
   transition: background 0.15s ease;
@@ -151,7 +182,7 @@ a {
   isolation: isolate;
   overflow: hidden;
   background: var(--bg-neutral);
-  min-height: min(78vh, 720px);
+  min-height: min(72vh, 680px);
 }
 
 .hero-plane__media {
@@ -172,8 +203,8 @@ a {
   inset: 0;
   z-index: 1;
   background:
-    linear-gradient(90deg, rgba(19, 20, 21, 0.72) 0%, rgba(19, 20, 21, 0.45) 42%, rgba(19, 20, 21, 0.15) 100%),
-    linear-gradient(180deg, rgba(19, 20, 21, 0.25) 0%, transparent 40%, rgba(19, 20, 21, 0.55) 100%);
+    linear-gradient(90deg, rgba(19, 20, 21, 0.78) 0%, rgba(19, 20, 21, 0.5) 40%, rgba(19, 20, 21, 0.18) 100%),
+    linear-gradient(180deg, rgba(19, 20, 21, 0.28) 0%, transparent 38%, rgba(19, 20, 21, 0.62) 100%);
 }
 
 .hero-plane__content {
