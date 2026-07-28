@@ -1,0 +1,1523 @@
+{
+  "meta": {
+    "source": "Google Keyword Planner export pasted 2026-07-28",
+    "date_range": "July 1, 2025 - June 30, 2026",
+    "rows_parsed": 2354,
+    "note": "Full paste appeared complete through low-volume tail keywords. Some mid-export rows may have had empty bid cells.",
+    "incomplete": false
+  },
+  "priority_counts": {
+    "deprioritize_rental": 454,
+    "other": 1329,
+    "secondary": 363,
+    "primary": 203,
+    "branded": 5
+  },
+  "clusters": {
+    "branded": {
+      "priority": 1,
+      "use": "PPC soft launch + brand SERP defense",
+      "keywords": [
+        {
+          "keyword": "cutting edge inflatables",
+          "avg_monthly_searches": 170,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 1.01,
+          "bid_high": 4.6,
+          "yoy": "-19%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "cutting edge creations inflatables",
+          "avg_monthly_searches": 50,
+          "competition": "High",
+          "competition_index": 92,
+          "bid_low": 1.09,
+          "bid_high": 4.9,
+          "yoy": "800%",
+          "three_month": "29%"
+        },
+        {
+          "keyword": "cutting edge bounce house",
+          "avg_monthly_searches": 10,
+          "competition": "High",
+          "competition_index": 83,
+          "bid_low": 0.0,
+          "bid_high": 0.0,
+          "yoy": "0%",
+          "three_month": "-50%"
+        },
+        {
+          "keyword": "cutting edge creation",
+          "avg_monthly_searches": 10,
+          "competition": "Medium",
+          "competition_index": 50,
+          "bid_low": 1.79,
+          "bid_high": 6.86,
+          "yoy": "0%",
+          "three_month": "-50%"
+        },
+        {
+          "keyword": "n flatables cutting edge",
+          "avg_monthly_searches": 10,
+          "competition": "Medium",
+          "competition_index": 60,
+          "bid_low": 0.0,
+          "bid_high": 0.0,
+          "yoy": "0%",
+          "three_month": "0%"
+        }
+      ]
+    },
+    "primary_commercial_b2b": {
+      "priority": 1,
+      "use": "Site IA + PPC phase 1 exact",
+      "keywords": [
+        {
+          "keyword": "commercial bounce house",
+          "avg_monthly_searches": 3600,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.29,
+          "bid_high": 1.54,
+          "yoy": "0%",
+          "three_month": "23%"
+        },
+        {
+          "keyword": "commercial jump house",
+          "avg_monthly_searches": 3600,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.29,
+          "bid_high": 1.54,
+          "yoy": "0%",
+          "three_month": "23%"
+        },
+        {
+          "keyword": "commercial bounce house for sale",
+          "avg_monthly_searches": 2900,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.31,
+          "bid_high": 1.83,
+          "yoy": "0%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "commercial water slide",
+          "avg_monthly_searches": 2900,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.32,
+          "bid_high": 1.96,
+          "yoy": "0%",
+          "three_month": "125%"
+        },
+        {
+          "keyword": "buy commercial bounce house",
+          "avg_monthly_searches": 2900,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.31,
+          "bid_high": 1.83,
+          "yoy": "0%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "commercial jump house for sale",
+          "avg_monthly_searches": 2900,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.31,
+          "bid_high": 1.83,
+          "yoy": "0%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "waterslide commercial",
+          "avg_monthly_searches": 2900,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.32,
+          "bid_high": 1.96,
+          "yoy": "0%",
+          "three_month": "125%"
+        },
+        {
+          "keyword": "commercial inflatable water slides",
+          "avg_monthly_searches": 1300,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.32,
+          "bid_high": 1.75,
+          "yoy": "0%",
+          "three_month": "177%"
+        },
+        {
+          "keyword": "commercial blow up water slide",
+          "avg_monthly_searches": 1300,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.32,
+          "bid_high": 1.75,
+          "yoy": "0%",
+          "three_month": "177%"
+        },
+        {
+          "keyword": "commercial inflatables",
+          "avg_monthly_searches": 1000,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.41,
+          "bid_high": 2.68,
+          "yoy": "0%",
+          "three_month": "60%"
+        },
+        {
+          "keyword": "commercial water slides for sale",
+          "avg_monthly_searches": 880,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.31,
+          "bid_high": 2.19,
+          "yoy": "26%",
+          "three_month": "140%"
+        },
+        {
+          "keyword": "used commercial water slides for sale",
+          "avg_monthly_searches": 590,
+          "competition": "High",
+          "competition_index": 99,
+          "bid_low": 0.2,
+          "bid_high": 1.85,
+          "yoy": "-55%",
+          "three_month": "81%"
+        },
+        {
+          "keyword": "bounce house wholesale",
+          "avg_monthly_searches": 480,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.43,
+          "bid_high": 2.31,
+          "yoy": "0%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "used commercial bounce houses for sale",
+          "avg_monthly_searches": 480,
+          "competition": "High",
+          "competition_index": 98,
+          "bid_low": 0.18,
+          "bid_high": 0.94,
+          "yoy": "-45%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "wholesale jump houses",
+          "avg_monthly_searches": 480,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.43,
+          "bid_high": 2.31,
+          "yoy": "0%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "commercial inflatables for sale",
+          "avg_monthly_searches": 390,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.48,
+          "bid_high": 2.95,
+          "yoy": "-33%",
+          "three_month": "23%"
+        },
+        {
+          "keyword": "commercial bounce house with slide",
+          "avg_monthly_searches": 320,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.38,
+          "bid_high": 1.61,
+          "yoy": "-19%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "commercial waterslide",
+          "avg_monthly_searches": 320,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.35,
+          "bid_high": 2.21,
+          "yoy": "0%",
+          "three_month": "83%"
+        },
+        {
+          "keyword": "bounce house manufacturers",
+          "avg_monthly_searches": 260,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.54,
+          "bid_high": 3.08,
+          "yoy": "-33%",
+          "three_month": "-19%"
+        },
+        {
+          "keyword": "commercial inflatable bounce house",
+          "avg_monthly_searches": 260,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.3,
+          "bid_high": 1.83,
+          "yoy": "50%",
+          "three_month": "22%"
+        },
+        {
+          "keyword": "wholesale inflatables",
+          "avg_monthly_searches": 260,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.67,
+          "bid_high": 4.04,
+          "yoy": "24%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "commercial blow up bounce house",
+          "avg_monthly_searches": 260,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.3,
+          "bid_high": 1.83,
+          "yoy": "50%",
+          "three_month": "22%"
+        },
+        {
+          "keyword": "wholesale commercial water slides for sale",
+          "avg_monthly_searches": 210,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.39,
+          "bid_high": 2.79,
+          "yoy": "181%",
+          "three_month": "84%"
+        },
+        {
+          "keyword": "commercial inflatable water slides for adults",
+          "avg_monthly_searches": 210,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.36,
+          "bid_high": 1.79,
+          "yoy": "-18%",
+          "three_month": "127%"
+        },
+        {
+          "keyword": "commercial inflatable water slides for sale",
+          "avg_monthly_searches": 210,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.38,
+          "bid_high": 2.13,
+          "yoy": "-19%",
+          "three_month": "129%"
+        },
+        {
+          "keyword": "commercial blow up water slides for sale",
+          "avg_monthly_searches": 210,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.38,
+          "bid_high": 2.13,
+          "yoy": "-19%",
+          "three_month": "129%"
+        },
+        {
+          "keyword": "commercial jumpers for sale",
+          "avg_monthly_searches": 170,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.32,
+          "bid_high": 2.41,
+          "yoy": "-47%",
+          "three_month": "-47%"
+        },
+        {
+          "keyword": "commercial inflatable slide",
+          "avg_monthly_searches": 170,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.33,
+          "bid_high": 1.87,
+          "yoy": "-18%",
+          "three_month": "88%"
+        },
+        {
+          "keyword": "commercial bounce house blower",
+          "avg_monthly_searches": 170,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.35,
+          "bid_high": 1.55,
+          "yoy": "-34%",
+          "three_month": "24%"
+        },
+        {
+          "keyword": "commercial bounce house with blower",
+          "avg_monthly_searches": 170,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.35,
+          "bid_high": 1.55,
+          "yoy": "-34%",
+          "three_month": "24%"
+        },
+        {
+          "keyword": "best place to buy commercial bounce house",
+          "avg_monthly_searches": 170,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.39,
+          "bid_high": 2.07,
+          "yoy": "875%",
+          "three_month": "50%"
+        },
+        {
+          "keyword": "custom bounce house",
+          "avg_monthly_searches": 140,
+          "competition": "High",
+          "competition_index": 92,
+          "bid_low": 1.96,
+          "bid_high": 11.37,
+          "yoy": "-35%",
+          "three_month": "-21%"
+        },
+        {
+          "keyword": "inflatable manufacturers",
+          "avg_monthly_searches": 140,
+          "competition": "High",
+          "competition_index": 88,
+          "bid_low": 1.84,
+          "bid_high": 6.01,
+          "yoy": "-33%",
+          "three_month": "-33%"
+        },
+        {
+          "keyword": "jumpers wholesale",
+          "avg_monthly_searches": 140,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.29,
+          "bid_high": 1.66,
+          "yoy": "-19%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "commercial bounce house with water slide",
+          "avg_monthly_searches": 140,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.37,
+          "bid_high": 1.72,
+          "yoy": "22%",
+          "three_month": "50%"
+        },
+        {
+          "keyword": "commercial bouncy castle",
+          "avg_monthly_searches": 110,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.25,
+          "bid_high": 1.52,
+          "yoy": "-76%",
+          "three_month": "-29%"
+        },
+        {
+          "keyword": "commercial bounce house clearance",
+          "avg_monthly_searches": 110,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.28,
+          "bid_high": 1.43,
+          "yoy": "325%",
+          "three_month": "-35%"
+        },
+        {
+          "keyword": "commercial inflatable obstacle course",
+          "avg_monthly_searches": 110,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.44,
+          "bid_high": 2.27,
+          "yoy": "-36%",
+          "three_month": "-18%"
+        },
+        {
+          "keyword": "commercial jumping castle",
+          "avg_monthly_searches": 110,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.25,
+          "bid_high": 1.52,
+          "yoy": "-76%",
+          "three_month": "-29%"
+        },
+        {
+          "keyword": "commercial bounce house rental",
+          "avg_monthly_searches": 110,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.44,
+          "bid_high": 1.78,
+          "yoy": "-22%",
+          "three_month": "-59%"
+        }
+      ]
+    },
+    "secondary_purchase": {
+      "priority": 2,
+      "use": "Category landers + PPC phase 2",
+      "keywords": [
+        {
+          "keyword": "bounce house for sale",
+          "avg_monthly_searches": 22200,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.23,
+          "bid_high": 0.98,
+          "yoy": "0%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "water slides for sale",
+          "avg_monthly_searches": 8100,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.2,
+          "bid_high": 0.87,
+          "yoy": "0%",
+          "three_month": "124%"
+        },
+        {
+          "keyword": "inflatable water slides for sale",
+          "avg_monthly_searches": 4400,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.27,
+          "bid_high": 1.28,
+          "yoy": "-33%",
+          "three_month": "23%"
+        },
+        {
+          "keyword": "blow up water slide for sale",
+          "avg_monthly_searches": 4400,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.27,
+          "bid_high": 1.28,
+          "yoy": "-33%",
+          "three_month": "23%"
+        },
+        {
+          "keyword": "buy inflatable water slide",
+          "avg_monthly_searches": 4400,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.27,
+          "bid_high": 1.28,
+          "yoy": "-33%",
+          "three_month": "23%"
+        },
+        {
+          "keyword": "bouncy water slide for sale",
+          "avg_monthly_searches": 4400,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.27,
+          "bid_high": 1.28,
+          "yoy": "-33%",
+          "three_month": "23%"
+        },
+        {
+          "keyword": "waterslide for sale",
+          "avg_monthly_searches": 2400,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.24,
+          "bid_high": 1.04,
+          "yoy": "-33%",
+          "three_month": "86%"
+        },
+        {
+          "keyword": "buy bounce house",
+          "avg_monthly_searches": 2400,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.26,
+          "bid_high": 1.27,
+          "yoy": "0%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "jumpers for sale",
+          "avg_monthly_searches": 1900,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.13,
+          "bid_high": 1.03,
+          "yoy": "-17%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "inflatables for sale",
+          "avg_monthly_searches": 1600,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.31,
+          "bid_high": 2.38,
+          "yoy": "-21%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "inflatable bounce house for sale",
+          "avg_monthly_searches": 1300,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.27,
+          "bid_high": 1.38,
+          "yoy": "-32%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "buy inflatable bounce house",
+          "avg_monthly_searches": 1300,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.27,
+          "bid_high": 1.38,
+          "yoy": "-32%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "blow up bounce house for sale",
+          "avg_monthly_searches": 1300,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.27,
+          "bid_high": 1.38,
+          "yoy": "-32%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "inflatable jump house for sale",
+          "avg_monthly_searches": 1300,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.27,
+          "bid_high": 1.38,
+          "yoy": "-32%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "blow up jump house for sale",
+          "avg_monthly_searches": 1300,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.27,
+          "bid_high": 1.38,
+          "yoy": "-32%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "cheap bounce house for sale",
+          "avg_monthly_searches": 1000,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.21,
+          "bid_high": 1.09,
+          "yoy": "-33%",
+          "three_month": "-18%"
+        },
+        {
+          "keyword": "bounce house to buy cheap",
+          "avg_monthly_searches": 1000,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.21,
+          "bid_high": 1.09,
+          "yoy": "-33%",
+          "three_month": "-18%"
+        },
+        {
+          "keyword": "discount bounce houses for sale",
+          "avg_monthly_searches": 1000,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.21,
+          "bid_high": 1.09,
+          "yoy": "-33%",
+          "three_month": "-18%"
+        },
+        {
+          "keyword": "jump house for sale",
+          "avg_monthly_searches": 880,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.21,
+          "bid_high": 1.14,
+          "yoy": "-12%",
+          "three_month": "-12%"
+        },
+        {
+          "keyword": "buy jump house",
+          "avg_monthly_searches": 880,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.21,
+          "bid_high": 1.14,
+          "yoy": "-12%",
+          "three_month": "-12%"
+        },
+        {
+          "keyword": "bounce house for sale near me",
+          "avg_monthly_searches": 720,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.26,
+          "bid_high": 1.33,
+          "yoy": "-12%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "bounce house water slide for sale",
+          "avg_monthly_searches": 720,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.26,
+          "bid_high": 1.12,
+          "yoy": "-33%",
+          "three_month": "122%"
+        },
+        {
+          "keyword": "inflatable house for sale",
+          "avg_monthly_searches": 720,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.23,
+          "bid_high": 1.25,
+          "yoy": "0%",
+          "three_month": "14%"
+        },
+        {
+          "keyword": "bouncehouses for sale",
+          "avg_monthly_searches": 720,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.23,
+          "bid_high": 1.25,
+          "yoy": "0%",
+          "three_month": "14%"
+        },
+        {
+          "keyword": "moon bounce for sale",
+          "avg_monthly_searches": 590,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.21,
+          "bid_high": 1.07,
+          "yoy": "-28%",
+          "three_month": "-18%"
+        },
+        {
+          "keyword": "water bounce house for sale",
+          "avg_monthly_searches": 590,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.28,
+          "bid_high": 1.19,
+          "yoy": "-33%",
+          "three_month": "82%"
+        },
+        {
+          "keyword": "used bounce house for sale",
+          "avg_monthly_searches": 590,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.13,
+          "bid_high": 0.96,
+          "yoy": "-28%",
+          "three_month": "-18%"
+        },
+        {
+          "keyword": "big water slides for sale",
+          "avg_monthly_searches": 590,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.22,
+          "bid_high": 1.23,
+          "yoy": "60%",
+          "three_month": "122%"
+        },
+        {
+          "keyword": "large water slides for sale",
+          "avg_monthly_searches": 590,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.22,
+          "bid_high": 1.23,
+          "yoy": "60%",
+          "three_month": "122%"
+        },
+        {
+          "keyword": "buy moon bounce",
+          "avg_monthly_searches": 590,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.21,
+          "bid_high": 1.07,
+          "yoy": "-28%",
+          "three_month": "-18%"
+        },
+        {
+          "keyword": "buy used bounce house",
+          "avg_monthly_searches": 590,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.13,
+          "bid_high": 0.96,
+          "yoy": "-28%",
+          "three_month": "-18%"
+        },
+        {
+          "keyword": "moonbounces for sale",
+          "avg_monthly_searches": 590,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.21,
+          "bid_high": 1.07,
+          "yoy": "-28%",
+          "three_month": "-18%"
+        },
+        {
+          "keyword": "bouncy castle for sale",
+          "avg_monthly_searches": 480,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.22,
+          "bid_high": 1.14,
+          "yoy": "-33%",
+          "three_month": "-33%"
+        },
+        {
+          "keyword": "white bounce house for sale",
+          "avg_monthly_searches": 480,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.3,
+          "bid_high": 1.5,
+          "yoy": "-34%",
+          "three_month": "-34%"
+        },
+        {
+          "keyword": "big bounce house for sale",
+          "avg_monthly_searches": 480,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.22,
+          "bid_high": 0.96,
+          "yoy": "-18%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "bounce house with slide for sale",
+          "avg_monthly_searches": 480,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.26,
+          "bid_high": 1.08,
+          "yoy": "-18%",
+          "three_month": "23%"
+        },
+        {
+          "keyword": "water slides for sale near me",
+          "avg_monthly_searches": 480,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.23,
+          "bid_high": 0.95,
+          "yoy": "23%",
+          "three_month": "233%"
+        },
+        {
+          "keyword": "inflatable castle for sale",
+          "avg_monthly_searches": 480,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.22,
+          "bid_high": 1.14,
+          "yoy": "-33%",
+          "three_month": "-33%"
+        },
+        {
+          "keyword": "huge bounce house for sale",
+          "avg_monthly_searches": 480,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.22,
+          "bid_high": 0.96,
+          "yoy": "-18%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "bounce house for sale with slide",
+          "avg_monthly_searches": 480,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.26,
+          "bid_high": 1.08,
+          "yoy": "-18%",
+          "three_month": "23%"
+        }
+      ]
+    },
+    "deprioritize_rental_local": {
+      "priority": 99,
+      "use": "Avoid homepage/organic primary; rental marketplace intent",
+      "keywords": [
+        {
+          "keyword": "bounce house rental",
+          "avg_monthly_searches": 110000,
+          "competition": "High",
+          "competition_index": 84,
+          "bid_low": 0.79,
+          "bid_high": 2.13,
+          "yoy": "-33%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "inflatable house rental",
+          "avg_monthly_searches": 110000,
+          "competition": "High",
+          "competition_index": 84,
+          "bid_low": 0.79,
+          "bid_high": 2.13,
+          "yoy": "-33%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "bounce house rentals near me",
+          "avg_monthly_searches": 49500,
+          "competition": "Medium",
+          "competition_index": 62,
+          "bid_low": 0.71,
+          "bid_high": 2.21,
+          "yoy": "0%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "jump house rentals near me",
+          "avg_monthly_searches": 49500,
+          "competition": "Medium",
+          "competition_index": 62,
+          "bid_low": 0.71,
+          "bid_high": 2.21,
+          "yoy": "0%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "inflatable house rental near me",
+          "avg_monthly_searches": 49500,
+          "competition": "Medium",
+          "competition_index": 62,
+          "bid_low": 0.71,
+          "bid_high": 2.21,
+          "yoy": "0%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "water slides rentals",
+          "avg_monthly_searches": 40500,
+          "competition": "High",
+          "competition_index": 75,
+          "bid_low": 0.7,
+          "bid_high": 1.95,
+          "yoy": "0%",
+          "three_month": "122%"
+        },
+        {
+          "keyword": "bounce houses near me",
+          "avg_monthly_searches": 22200,
+          "competition": "High",
+          "competition_index": 89,
+          "bid_low": 0.9,
+          "bid_high": 2.65,
+          "yoy": "-18%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "inflatable water slide rentals near me",
+          "avg_monthly_searches": 18100,
+          "competition": "Medium",
+          "competition_index": 56,
+          "bid_low": 0.69,
+          "bid_high": 1.97,
+          "yoy": "0%",
+          "three_month": "123%"
+        },
+        {
+          "keyword": "water slide inflatable rentals",
+          "avg_monthly_searches": 14800,
+          "competition": "High",
+          "competition_index": 91,
+          "bid_low": 0.66,
+          "bid_high": 1.95,
+          "yoy": "-18%",
+          "three_month": "124%"
+        },
+        {
+          "keyword": "inflatable rentals near me",
+          "avg_monthly_searches": 12100,
+          "competition": "Medium",
+          "competition_index": 62,
+          "bid_low": 0.68,
+          "bid_high": 1.99,
+          "yoy": "0%",
+          "three_month": "50%"
+        },
+        {
+          "keyword": "inflatable rentals",
+          "avg_monthly_searches": 9900,
+          "competition": "High",
+          "competition_index": 68,
+          "bid_low": 0.71,
+          "bid_high": 1.97,
+          "yoy": "-18%",
+          "three_month": "22%"
+        },
+        {
+          "keyword": "rent inflatable bounce house",
+          "avg_monthly_searches": 8100,
+          "competition": "High",
+          "competition_index": 76,
+          "bid_low": 0.75,
+          "bid_high": 2.03,
+          "yoy": "-70%",
+          "three_month": "-17%"
+        },
+        {
+          "keyword": "bouncy castle rental",
+          "avg_monthly_searches": 6600,
+          "competition": "Medium",
+          "competition_index": 67,
+          "bid_low": 0.54,
+          "bid_high": 1.81,
+          "yoy": "-91%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "inflatable castle rental",
+          "avg_monthly_searches": 6600,
+          "competition": "Medium",
+          "competition_index": 67,
+          "bid_low": 0.54,
+          "bid_high": 1.81,
+          "yoy": "-91%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "jumping rentals near me",
+          "avg_monthly_searches": 5400,
+          "competition": "High",
+          "competition_index": 70,
+          "bid_low": 0.73,
+          "bid_high": 2.52,
+          "yoy": "-33%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "bounce house rental company",
+          "avg_monthly_searches": 5400,
+          "competition": "Low",
+          "competition_index": 6,
+          "bid_low": 1.36,
+          "bid_high": 3.05,
+          "yoy": "-19%",
+          "three_month": "-46%"
+        },
+        {
+          "keyword": "jump house rentals",
+          "avg_monthly_searches": 4400,
+          "competition": "High",
+          "competition_index": 73,
+          "bid_low": 0.69,
+          "bid_high": 2.07,
+          "yoy": "-33%",
+          "three_month": "-19%"
+        },
+        {
+          "keyword": "inflatables near me",
+          "avg_monthly_searches": 4400,
+          "competition": "High",
+          "competition_index": 73,
+          "bid_low": 0.88,
+          "bid_high": 2.27,
+          "yoy": "0%",
+          "three_month": "22%"
+        },
+        {
+          "keyword": "jump houses near me",
+          "avg_monthly_searches": 4400,
+          "competition": "High",
+          "competition_index": 68,
+          "bid_low": 0.67,
+          "bid_high": 2.41,
+          "yoy": "-18%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "slide near me",
+          "avg_monthly_searches": 4400,
+          "competition": "High",
+          "competition_index": 98,
+          "bid_low": 0.29,
+          "bid_high": 1.53,
+          "yoy": "23%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "jumping rentals",
+          "avg_monthly_searches": 3600,
+          "competition": "Medium",
+          "competition_index": 65,
+          "bid_low": 0.67,
+          "bid_high": 2.07,
+          "yoy": "0%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "water bounce house rental",
+          "avg_monthly_searches": 2900,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.69,
+          "bid_high": 1.95,
+          "yoy": "-18%",
+          "three_month": "125%"
+        },
+        {
+          "keyword": "water slide bounce house rental",
+          "avg_monthly_searches": 2900,
+          "competition": "High",
+          "competition_index": 99,
+          "bid_low": 0.72,
+          "bid_high": 2.0,
+          "yoy": "0%",
+          "three_month": "125%"
+        },
+        {
+          "keyword": "bounce house and water slide rentals",
+          "avg_monthly_searches": 2900,
+          "competition": "High",
+          "competition_index": 99,
+          "bid_low": 0.72,
+          "bid_high": 2.0,
+          "yoy": "0%",
+          "three_month": "125%"
+        },
+        {
+          "keyword": "inflatable slide rental",
+          "avg_monthly_searches": 2400,
+          "competition": "High",
+          "competition_index": 83,
+          "bid_low": 0.75,
+          "bid_high": 2.0,
+          "yoy": "0%",
+          "three_month": "83%"
+        }
+      ],
+      "note": "High volume (bounce house rental ~110k) but misaligned if CEC is manufacturer/for-sale"
+    },
+    "other": {
+      "priority": 3,
+      "use": "Review case-by-case",
+      "keywords": [
+        {
+          "keyword": "bounce house",
+          "avg_monthly_searches": 110000,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.33,
+          "bid_high": 1.86,
+          "yoy": "0%",
+          "three_month": "23%"
+        },
+        {
+          "keyword": "bounce house bounce house",
+          "avg_monthly_searches": 110000,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.33,
+          "bid_high": 1.86,
+          "yoy": "0%",
+          "three_month": "23%"
+        },
+        {
+          "keyword": "inflatable water slides",
+          "avg_monthly_searches": 49500,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.35,
+          "bid_high": 1.7,
+          "yoy": "-18%",
+          "three_month": "173%"
+        },
+        {
+          "keyword": "bouncy water slide",
+          "avg_monthly_searches": 49500,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.35,
+          "bid_high": 1.7,
+          "yoy": "-18%",
+          "three_month": "173%"
+        },
+        {
+          "keyword": "inflatables",
+          "avg_monthly_searches": 27100,
+          "competition": "High",
+          "competition_index": 94,
+          "bid_low": 0.47,
+          "bid_high": 3.13,
+          "yoy": "0%",
+          "three_month": "22%"
+        },
+        {
+          "keyword": "inflatable bounce house",
+          "avg_monthly_searches": 12100,
+          "competition": "High",
+          "competition_index": 99,
+          "bid_low": 0.3,
+          "bid_high": 1.59,
+          "yoy": "-18%",
+          "three_month": "-18%"
+        },
+        {
+          "keyword": "water slide bounce house",
+          "avg_monthly_searches": 12100,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.38,
+          "bid_high": 1.75,
+          "yoy": "-18%",
+          "three_month": "124%"
+        },
+        {
+          "keyword": "moon bounce",
+          "avg_monthly_searches": 12100,
+          "competition": "High",
+          "competition_index": 86,
+          "bid_low": 0.36,
+          "bid_high": 2.04,
+          "yoy": "0%",
+          "three_month": "-33%"
+        },
+        {
+          "keyword": "inflatable jump house",
+          "avg_monthly_searches": 12100,
+          "competition": "High",
+          "competition_index": 99,
+          "bid_low": 0.3,
+          "bid_high": 1.59,
+          "yoy": "-18%",
+          "three_month": "-18%"
+        },
+        {
+          "keyword": "blow up bounce house",
+          "avg_monthly_searches": 12100,
+          "competition": "High",
+          "competition_index": 99,
+          "bid_low": 0.3,
+          "bid_high": 1.59,
+          "yoy": "-18%",
+          "three_month": "-18%"
+        },
+        {
+          "keyword": "blow up jump house",
+          "avg_monthly_searches": 12100,
+          "competition": "High",
+          "competition_index": 99,
+          "bid_low": 0.3,
+          "bid_high": 1.59,
+          "yoy": "-18%",
+          "three_month": "-18%"
+        },
+        {
+          "keyword": "inflatable bounce house water slide",
+          "avg_monthly_searches": 12100,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.38,
+          "bid_high": 1.75,
+          "yoy": "-18%",
+          "three_month": "124%"
+        },
+        {
+          "keyword": "bounce house and water slide",
+          "avg_monthly_searches": 12100,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.38,
+          "bid_high": 1.75,
+          "yoy": "-18%",
+          "three_month": "124%"
+        },
+        {
+          "keyword": "moon bounces",
+          "avg_monthly_searches": 12100,
+          "competition": "High",
+          "competition_index": 86,
+          "bid_low": 0.36,
+          "bid_high": 2.04,
+          "yoy": "0%",
+          "three_month": "-33%"
+        },
+        {
+          "keyword": "water bounce house with slide",
+          "avg_monthly_searches": 12100,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.38,
+          "bid_high": 1.75,
+          "yoy": "-18%",
+          "three_month": "124%"
+        },
+        {
+          "keyword": "inflatable bounce house with water slide",
+          "avg_monthly_searches": 12100,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.38,
+          "bid_high": 1.75,
+          "yoy": "-18%",
+          "three_month": "124%"
+        },
+        {
+          "keyword": "jump house with water slide",
+          "avg_monthly_searches": 12100,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.38,
+          "bid_high": 1.75,
+          "yoy": "-18%",
+          "three_month": "124%"
+        },
+        {
+          "keyword": "inflatable bounce house and water slide",
+          "avg_monthly_searches": 12100,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.38,
+          "bid_high": 1.75,
+          "yoy": "-18%",
+          "three_month": "124%"
+        },
+        {
+          "keyword": "bounce house with a water slide",
+          "avg_monthly_searches": 12100,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.38,
+          "bid_high": 1.75,
+          "yoy": "-18%",
+          "three_month": "124%"
+        },
+        {
+          "keyword": "childrens bounce house",
+          "avg_monthly_searches": 12100,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.24,
+          "bid_high": 1.28,
+          "yoy": "-18%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "water slide jumpy house",
+          "avg_monthly_searches": 12100,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.38,
+          "bid_high": 1.75,
+          "yoy": "-18%",
+          "three_month": "124%"
+        },
+        {
+          "keyword": "bounce house slide water",
+          "avg_monthly_searches": 12100,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.38,
+          "bid_high": 1.75,
+          "yoy": "-18%",
+          "three_month": "124%"
+        },
+        {
+          "keyword": "waterslides bounce house",
+          "avg_monthly_searches": 12100,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.38,
+          "bid_high": 1.75,
+          "yoy": "-18%",
+          "three_month": "124%"
+        },
+        {
+          "keyword": "water bounce house",
+          "avg_monthly_searches": 9900,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.35,
+          "bid_high": 1.65,
+          "yoy": "-18%",
+          "three_month": "124%"
+        },
+        {
+          "keyword": "indoor bounce house",
+          "avg_monthly_searches": 9900,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.21,
+          "bid_high": 1.25,
+          "yoy": "-19%",
+          "three_month": "0%"
+        },
+        {
+          "keyword": "water jump house",
+          "avg_monthly_searches": 9900,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.35,
+          "bid_high": 1.65,
+          "yoy": "-18%",
+          "three_month": "124%"
+        },
+        {
+          "keyword": "bounce house for water",
+          "avg_monthly_searches": 9900,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.35,
+          "bid_high": 1.65,
+          "yoy": "-18%",
+          "three_month": "124%"
+        },
+        {
+          "keyword": "bounce house in water",
+          "avg_monthly_searches": 9900,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.35,
+          "bid_high": 1.65,
+          "yoy": "-18%",
+          "three_month": "124%"
+        },
+        {
+          "keyword": "bounce house on the water",
+          "avg_monthly_searches": 9900,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.35,
+          "bid_high": 1.65,
+          "yoy": "-18%",
+          "three_month": "124%"
+        },
+        {
+          "keyword": "bounce house on water",
+          "avg_monthly_searches": 9900,
+          "competition": "High",
+          "competition_index": 100,
+          "bid_low": 0.35,
+          "bid_high": 1.65,
+          "yoy": "-18%",
+          "three_month": "124%"
+        }
+      ]
+    }
+  },
+  "landing_page_map_hints": [
+    {
+      "slug": "/commercial-bounce-houses",
+      "seed": [
+        "commercial bounce house",
+        "commercial bounce house for sale",
+        "buy commercial bounce house"
+      ]
+    },
+    {
+      "slug": "/commercial-water-slides",
+      "seed": [
+        "commercial water slide",
+        "water slides for sale",
+        "wholesale commercial water slides"
+      ]
+    },
+    {
+      "slug": "/inflatable-obstacle-courses",
+      "seed": [
+        "obstacle course for sale",
+        "commercial obstacle course"
+      ]
+    },
+    {
+      "slug": "/wholesale",
+      "seed": [
+        "wholesale",
+        "bounce house manufacturers",
+        "usa manufacturers"
+      ]
+    },
+    {
+      "slug": "/products",
+      "seed": [
+        "inflatables for sale",
+        "bounce house for sale"
+      ]
+    },
+    {
+      "slug": "/request-a-quote",
+      "seed": [
+        "custom bounce house",
+        "commercial* high CPC"
+      ]
+    }
+  ],
+  "site_ia_priorities": [
+    {
+      "bucket": "branded",
+      "action": "PPC soft launch + SERP defense first"
+    },
+    {
+      "bucket": "primary_commercial_b2b",
+      "action": "Homepage + category landers + phase 1 exact ads"
+    },
+    {
+      "bucket": "secondary_purchase",
+      "action": "Category/product pages + phase 2 ads with rental negatives"
+    },
+    {
+      "bucket": "deprioritize_rental_local",
+      "action": "Negate in PPC; do not target on homepage SEO"
+    }
+  ],
+  "notable_volumes": {
+    "bounce_house_rental": 110000,
+    "bounce_house_for_sale": 22200,
+    "commercial_bounce_house": 3600,
+    "water_slides_for_sale": 8100,
+    "cutting_edge_inflatables": 170,
+    "custom_bounce_house": 140,
+    "inflatable_insurance": 170
+  }
+}
