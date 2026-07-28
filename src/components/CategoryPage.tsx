@@ -58,7 +58,7 @@ export function CategoryPage({
         </div>
         <div className="hero-plane__shade" />
         <div className="hero-plane__content mx-auto flex min-h-[52vh] max-w-6xl items-end px-4 pb-12 pt-16 sm:px-6">
-          <div className="max-w-3xl text-white">
+          <div className="hero-plane__copy max-w-3xl">
             <p className="eyebrow text-primary">
               {eyebrow}
               {offer.eyebrowSuffix || ""}
@@ -66,9 +66,7 @@ export function CategoryPage({
             <h1 className="headline-hero mt-3 text-4xl text-white sm:text-5xl md:text-6xl">
               {title}
             </h1>
-            <p className="mt-4 max-w-2xl text-base leading-snug text-white/90 md:text-lg">
-              {intro}
-            </p>
+            <p className="hero-plane__lead mt-4">{intro}</p>
             <p className="mt-4 max-w-xl text-sm font-semibold text-primary">
               {offer.offerLine}
             </p>
@@ -78,12 +76,12 @@ export function CategoryPage({
               </Link>
               <Link
                 href={offer.ctaSecondary.href}
-                className="btn-secondary !border-white/40 !text-white hover:!border-primary hover:!text-primary"
+                className="btn-secondary !border-white/50 !text-white hover:!border-primary hover:!text-primary"
               >
                 {offer.ctaSecondary.label}
               </Link>
             </div>
-            <p className="mt-3 text-[11px] text-white/45">
+            <p className="hero-plane__meta mt-3 !tracking-[0.08em] !normal-case">
               Comparing offers:{" "}
               <Link href={`${path}?v=a`} className="underline hover:text-white">
                 Quote

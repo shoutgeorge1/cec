@@ -36,16 +36,16 @@ export default async function HomePage() {
         </div>
         <div className="hero-plane__shade" />
         <div className="hero-plane__content mx-auto flex min-h-[72vh] max-w-6xl items-end px-4 pb-14 pt-20 sm:px-6 md:pb-16">
-          <div className="max-w-2xl text-white">
-            <p className="animate-rise eyebrow text-primary">
+          <div className="hero-plane__copy animate-rise">
+            <p className="eyebrow text-primary">
               Commercial inflatables · For sale
             </p>
             <h1 className="animate-rise-delay headline-hero mt-3 text-[2.5rem] text-white sm:text-5xl md:text-[3.5rem]">
               Buy commercial bounce houses, water slides &amp; obstacle courses.
             </h1>
-            <p className="animate-rise-delay-2 mt-4 max-w-lg text-[1.05rem] leading-snug text-white/90 md:text-lg">
-              Fleet-ready units for rental operators and venues. Request a quote
-              — or talk to sales about packages.
+            <p className="hero-plane__lead animate-rise-delay-2 mt-4">
+              Built for rental fleets and venues. Request a quote or talk to
+              sales.
             </p>
             <div className="animate-rise-delay-2 mt-7 flex flex-wrap gap-3">
               <Link href="/request-a-quote" className="btn-primary">
@@ -53,22 +53,22 @@ export default async function HomePage() {
               </Link>
               <Link
                 href="/contact"
-                className="btn-secondary !border-white/50 !text-white hover:!border-primary hover:!text-primary"
+                className="btn-secondary !border-white/55 !text-white hover:!border-primary hover:!text-primary"
               >
                 Talk to sales
               </Link>
               <Link
                 href="/packages"
-                className="btn-secondary !border-white/50 !text-white hover:!border-primary hover:!text-primary"
+                className="btn-secondary !border-white/55 !text-white hover:!border-primary hover:!text-primary"
               >
                 View packages
               </Link>
             </div>
-            <p className="animate-rise-delay-2 mt-4 font-nav text-[11px] font-semibold uppercase tracking-[0.12em] text-white/65">
+            <p className="hero-plane__meta animate-rise-delay-2 mt-4">
               <Link href="/products" className="underline-offset-2 hover:text-primary hover:underline">
                 Shop catalog
               </Link>
-              <span className="mx-2 text-white/35">·</span>
+              <span className="mx-2 text-white/40">·</span>
               USA manufacturer · Sales-assisted
             </p>
           </div>

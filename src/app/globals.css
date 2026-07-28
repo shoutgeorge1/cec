@@ -105,6 +105,11 @@ a {
   font-weight: 800;
   letter-spacing: -0.03em;
   line-height: 1.02;
+  /* Soft dual-shadow — readable on bright photos, not a sticker outline */
+  text-shadow:
+    0 1px 0 rgba(0, 0, 0, 0.4),
+    0 2px 10px rgba(0, 0, 0, 0.45),
+    0 10px 28px rgba(0, 0, 0, 0.32);
 }
 
 .eyebrow {
@@ -207,16 +212,67 @@ a {
   inset: 0;
   z-index: 1;
   pointer-events: none;
-  /* Soft text scrim only — let sunny outdoor photos read bright */
+  /* Keep photo bright — copy contrast lives on the plate, not a full crush */
   background:
-    linear-gradient(90deg, rgba(19, 20, 21, 0.28) 0%, rgba(19, 20, 21, 0.08) 45%, transparent 100%),
-    linear-gradient(180deg, rgba(19, 20, 21, 0.06) 0%, transparent 48%, rgba(19, 20, 21, 0.32) 100%);
+    linear-gradient(90deg, rgba(19, 20, 21, 0.18) 0%, rgba(19, 20, 21, 0.05) 42%, transparent 100%),
+    linear-gradient(180deg, rgba(19, 20, 21, 0.05) 0%, transparent 50%, rgba(19, 20, 21, 0.22) 100%);
 }
 
 .hero-plane__content {
   position: relative;
   z-index: 2;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35), 0 2px 14px rgba(0, 0, 0, 0.28);
+}
+
+/* Copy-only plate: soft scrim behind text, not a heavy bar over the photo */
+.hero-plane__copy {
+  position: relative;
+  max-width: 40rem;
+  padding: 1.35rem 1.5rem 1.5rem;
+  margin-inline: -0.5rem;
+  color: #fff;
+  background:
+    linear-gradient(
+      105deg,
+      rgba(19, 20, 21, 0.58) 0%,
+      rgba(19, 20, 21, 0.42) 58%,
+      rgba(19, 20, 21, 0.16) 100%
+    );
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+}
+
+.hero-plane__copy .eyebrow {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
+}
+
+.hero-plane__lead {
+  max-width: 34rem;
+  font-size: 1.05rem;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.94);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5), 0 2px 12px rgba(0, 0, 0, 0.32);
+}
+
+.hero-plane__meta {
+  font-family: var(--font-nav), Montserrat, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.72);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
+}
+
+@media (min-width: 640px) {
+  .hero-plane__copy {
+    padding: 1.6rem 1.85rem 1.75rem;
+    margin-inline: -0.65rem;
+  }
+
+  .hero-plane__lead {
+    font-size: 1.125rem;
+  }
 }
 
 @keyframes rise-in {

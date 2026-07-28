@@ -54,20 +54,20 @@ export default async function WholesalePage({
         </div>
         <div className="hero-plane__shade" />
         <div className="hero-plane__content mx-auto flex min-h-[48vh] max-w-6xl items-end px-4 pb-12 pt-16 sm:px-6">
-          <div className="max-w-3xl text-white">
+          <div className="hero-plane__copy max-w-3xl">
             <p className="eyebrow text-primary">
               Wholesale & fleet buying
-              {isB ? " · Package pricing tease" : ""}
+              {isB ? " · Package pricing" : ""}
             </p>
             <h1 className="headline-hero mt-3 text-4xl text-white sm:text-5xl md:text-6xl">
               {isB
                 ? "Starter fleets with a clear path to sales"
                 : "Multi-unit buys deserve a salesperson, not a cart alone"}
             </h1>
-            <p className="mt-4 max-w-2xl text-base leading-snug text-white/90 md:text-lg">
+            <p className="hero-plane__lead mt-4">
               {isB
-                ? "See curated commercial starter packages, then talk to sales about volume pricing, blowers, and lead times."
-                : "Whether you are starting a rental company or expanding an existing fleet, wholesale conversations cover mix, capacity, lead times, and budget packaging."}
+                ? "Review starter packages, then talk to sales about volume pricing and lead times."
+                : "Starting or expanding a fleet? Sales covers mix, capacity, lead times, and volume pricing."}
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
@@ -78,12 +78,12 @@ export default async function WholesalePage({
               </Link>
               <Link
                 href={isB ? "/contact" : "/products"}
-                className="btn-secondary !border-white/40 !text-white hover:!border-primary hover:!text-primary"
+                className="btn-secondary !border-white/50 !text-white hover:!border-primary hover:!text-primary"
               >
                 {isB ? "Talk to sales" : "Preview catalog"}
               </Link>
             </div>
-            <p className="mt-4 text-[11px] text-white/45">
+            <p className="hero-plane__meta mt-4 !tracking-[0.08em] !normal-case">
               Offer test:{" "}
               <Link href="/wholesale?v=a" className="underline hover:text-white">
                 A

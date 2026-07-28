@@ -27,15 +27,14 @@ export default function PackagesPage() {
         </div>
         <div className="hero-plane__shade" />
         <div className="hero-plane__content mx-auto flex min-h-[42vh] max-w-6xl items-end px-4 pb-10 pt-14 sm:px-6">
-          <div className="max-w-3xl text-white">
+          <div className="hero-plane__copy max-w-3xl">
             <p className="eyebrow text-primary">Packages</p>
             <h1 className="headline-hero mt-3 text-4xl text-white sm:text-5xl">
               Commercial starter packages
             </h1>
-            <p className="mt-4 max-w-2xl text-base leading-snug text-white/90">
-              Shopify does not expose native bundle SKUs for these yet. Each card
-              below is a curated package of real catalog products — labeled
-              honestly as Package or Talk to sales.
+            <p className="hero-plane__lead mt-4">
+              Curated fleets from real catalog products. Talk to sales for
+              configuration and pricing.
             </p>
           </div>
         </div>

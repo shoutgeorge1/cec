@@ -26,9 +26,9 @@ export const OFFER_VARIANTS: Record<OfferVariantId, OfferVariant> = {
     label: "Request a quote",
     ctaPrimary: { href: "/request-a-quote", label: "Request a quote" },
     ctaSecondary: { href: "/products", label: "Browse products" },
-    offerLine: "Get specs and pricing for the units that fit your fleet.",
+    offerLine: "Get specs and pricing for units that fit your fleet.",
     supportLine:
-      "Share capacity targets, timeline, and budget range — sales routes you to the right commercial options.",
+      "Share capacity, timeline, and budget — sales routes you to the right options.",
   },
   b: {
     id: "b",
@@ -36,10 +36,9 @@ export const OFFER_VARIANTS: Record<OfferVariantId, OfferVariant> = {
     ctaPrimary: { href: "/contact", label: "Talk to sales" },
     ctaSecondary: { href: "/packages", label: "See starter packages" },
     eyebrowSuffix: " · Fleet packages",
-    offerLine:
-      "Ask about commercial starter packages — curated multi-unit builds for operators.",
+    offerLine: "Ask about commercial starter packages for multi-unit fleets.",
     supportLine:
-      "Package cards are curated from real catalog products. Pricing and configuration go through sales.",
+      "Package cards use real catalog products. Pricing and configuration go through sales.",
   },
 };
 

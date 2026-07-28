@@ -19,7 +19,7 @@ export default async function ObstacleCoursesPage({
       path="/inflatable-obstacle-courses"
       eyebrow="Inflatable obstacle courses"
       title="Obstacle courses for events that need more than a jumper"
-      intro="Obstacle and interactive units win corporate, festival, and competitive bookings. Start with length and throughput goals, then request a quote for commercial options."
+      intro="Race courses for festivals, FECs, and corporate events. Match length and throughput, then request a quote."
       bullets={[
         "Match course length and difficulty to your primary customer segments.",
         "Ask about transport weight, setup crew size, and storage footprint.",

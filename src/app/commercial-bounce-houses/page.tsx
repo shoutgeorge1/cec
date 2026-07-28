@@ -19,7 +19,7 @@ export default async function CommercialBounceHousesPage({
       path="/commercial-bounce-houses"
       eyebrow="Commercial bounce houses"
       title="Fleet-ready bounce houses for operators who book volume"
-      intro="Targeted to commercial and for-sale intent—jumpers built for repeated setup, transport, and weekend demand. Ask sales for dimensions, recommended blower packages, and multi-unit options."
+      intro="Commercial jumpers built for repeated setup and weekend demand. Ask sales for dimensions, blowers, and multi-unit options."
       bullets={[
         "Clarify indoor vs outdoor use, age range, and peak capacity before you buy.",
         "Ask for commercial construction details and what is included with each unit.",

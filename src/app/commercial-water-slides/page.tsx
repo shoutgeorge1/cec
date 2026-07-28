@@ -19,7 +19,7 @@ export default async function CommercialWaterSlidesPage({
       path="/commercial-water-slides"
       eyebrow="Commercial water slides"
       title="Water slides that carry summer revenue"
-      intro="Commercial wet and dry slides are high-intent purchase searches—and high-ticket decisions. Use this page to start sizing conversations, then request a quote for configuration and delivery timing."
+      intro="Wet and dry slides sized for peak-season bookings. Request a quote for configuration and lead times."
       bullets={[
         "Confirm wet vs dry, lane count, and footprint against your typical venues.",
         "Ask about blower requirements, anchoring, and setup labor assumptions.",

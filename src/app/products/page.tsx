@@ -33,16 +33,15 @@ export default async function ProductsPage() {
         </div>
         <div className="hero-plane__shade" />
         <div className="hero-plane__content mx-auto flex min-h-[42vh] max-w-6xl items-end px-4 pb-10 pt-14 sm:px-6">
-          <div className="max-w-3xl text-white">
+          <div className="hero-plane__copy max-w-3xl">
             <p className="eyebrow text-primary">Product index</p>
             <h1 className="headline-hero mt-3 text-4xl text-white sm:text-5xl">
               Commercial inflatables from the live catalog
             </h1>
-            <p className="mt-4 max-w-2xl text-base leading-snug text-white/90">
+            <p className="hero-plane__lead mt-4">
               {shopifyReady
-                ? "Loaded via Shopify Storefront API when available; otherwise public catalog JSON."
-                : "Loaded from the public cuttingedgecreations.com catalog. Connect Storefront API in .env.local when ready."}{" "}
-              High-ticket or quote-only units should use Request a Quote.
+                ? "Browse live catalog units. For high-ticket or multi-unit buys, request a quote."
+                : "Browse the public catalog. For high-ticket or multi-unit buys, request a quote."}
             </p>
           </div>
         </div>
