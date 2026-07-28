@@ -40,7 +40,7 @@ export default async function ObstacleCoursesPage({
       productName="Inflatable Obstacle Courses"
       productDescription="Commercial inflatable obstacle courses for rental and event professionals. Request specifications."
       category="Inflatable Obstacle Courses"
-      heroImage="/media/products/barnyard-breakout-180-obstacle-single.png"
+      heroImage="/media/products/wacky-dual-180ao-obstaclea-c.jpg"
       variant={sp.v ?? sp.variant}
     />
   );

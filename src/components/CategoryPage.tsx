@@ -30,7 +30,7 @@ export function CategoryPage({
   productName,
   productDescription,
   category,
-  heroImage = "/media/hero/barnyard-breakout-main.jpg",
+  heroImage = "/media/products/fire-station-combo-wet-dry.jpg",
   variant,
 }: CategoryPageProps) {
   const offer = getOfferVariant(variant);

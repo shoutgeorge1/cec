@@ -38,7 +38,7 @@ export const categoryPages = [
     title: "Commercial Bounce Houses",
     navLabel: "Bounce Houses",
     blurb: "Fleet-ready jumpers sized and built for rental volume.",
-    image: "/media/categories/monster-truck.png",
+    image: "/media/products/fire-station-combo-wet-dry.jpg",
     keywordsHint: "commercial bounce house · bounce house for sale",
   },
   {
@@ -46,7 +46,7 @@ export const categoryPages = [
     title: "Commercial Water Slides",
     navLabel: "Water Slides",
     blurb: "Wet/dry slides that drive summer bookings and high ticket rentals.",
-    image: "/media/hero/barnyard-breakout-slide.jpg",
+    image: "/media/products/wacky-mini-deluxea-c-18aeur-tm-slide-wet-dry.jpg",
     keywordsHint: "commercial water slide · inflatable water slide for sale",
   },
   {
@@ -54,7 +54,7 @@ export const categoryPages = [
     title: "Inflatable Obstacle Courses",
     navLabel: "Obstacle Courses",
     blurb: "Race courses and interactives for festivals, FECs, and corporate events.",
-    image: "/media/categories/obstacle.png",
+    image: "/media/products/wacky-dual-180ao-obstaclea-c.jpg",
     keywordsHint: "inflatable obstacle course · commercial obstacle course",
   },
   {
@@ -62,7 +62,7 @@ export const categoryPages = [
     title: "Wholesale & Fleet Packages",
     navLabel: "Wholesale",
     blurb: "Talk to sales about multi-unit buys, starter fleets, and custom builds.",
-    image: "/media/categories/custom.png",
+    image: "/media/products/wacky-5-in-1-combo.jpg",
     keywordsHint: "wholesale inflatables · commercial inflatables for sale",
   },
 ] as const;

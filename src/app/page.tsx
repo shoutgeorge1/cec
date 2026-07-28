@@ -146,7 +146,7 @@ export default async function HomePage() {
                       src={
                         product.imageLocal ||
                         product.imageUrl ||
-                        "/media/categories/monster-truck.png"
+                        "/media/products/fire-station-combo-wet-dry.jpg"
                       }
                       alt=""
                       className="h-full w-full object-cover"

@@ -44,7 +44,7 @@ export default async function WholesalePage({
       <section className="hero-plane" style={{ minHeight: "48vh" }}>
         <div className="hero-plane__media">
           <Image
-            src="/media/hero/wacky-5in1.png"
+            src="/media/products/wacky-5-in-1-combo.jpg"
             alt="Commercial inflatable fleet from Cutting Edge Creations"
             fill
             priority

@@ -40,7 +40,7 @@ export default async function CommercialBounceHousesPage({
       productName="Commercial Bounce Houses"
       productDescription="Commercial-grade bounce houses for rental and venue operators. Request specifications and pricing."
       category="Commercial Bounce Houses"
-      heroImage="/media/categories/monster-truck.png"
+      heroImage="/media/products/fire-station-combo-wet-dry.jpg"
       variant={sp.v ?? sp.variant}
     />
   );

@@ -17,7 +17,7 @@ export default function PackagesPage() {
       <section className="hero-plane" style={{ minHeight: "42vh" }}>
         <div className="hero-plane__media">
           <Image
-            src="/media/hero/wacky-world.png"
+            src="/media/products/wacky-kidzonea-c-wet-dry-combo.jpg"
             alt="Commercial starter packages from Cutting Edge Creations"
             fill
             priority
