@@ -141,14 +141,16 @@ export default async function HomePage() {
                   className="block"
                 >
                   <div className="relative aspect-[4/3] bg-bg-plain">
-                    {product.imageUrl ? (
-                      // eslint-disable-next-line @next/next/no-img-element
-                      <img
-                        src={product.imageUrl}
-                        alt=""
-                        className="h-full w-full object-cover"
-                      />
-                    ) : null}
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={
+                        product.imageLocal ||
+                        product.imageUrl ||
+                        "/media/categories/monster-truck.png"
+                      }
+                      alt=""
+                      className="h-full w-full object-cover"
+                    />
                   </div>
                   <div className="p-3.5">
                     <p className="font-nav text-[10px] font-semibold uppercase tracking-[0.12em] text-ink-muted">

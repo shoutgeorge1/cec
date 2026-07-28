@@ -35,12 +35,12 @@ export function Footer() {
             ))}
             <li>
               <Link href="/packages" className="hover:text-tertiary">
-                Starter packages
+                Packages
               </Link>
             </li>
             <li>
               <Link href="/products" className="hover:text-tertiary">
-                Product index
+                Products
               </Link>
             </li>
           </ul>

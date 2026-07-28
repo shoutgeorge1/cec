@@ -14,19 +14,30 @@ export const metadata = buildMetadata({
 export default function PackagesPage() {
   return (
     <>
-      <section className="bg-bg-neutral">
-        <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 md:py-16">
-          <p className="font-nav text-[11px] font-semibold uppercase tracking-[0.2em] text-ink-muted">
-            Packages
-          </p>
-          <h1 className="mt-3 max-w-3xl text-4xl font-bold tracking-tight text-ink sm:text-5xl">
-            Commercial starter packages
-          </h1>
-          <p className="mt-4 max-w-2xl text-ink-soft">
-            Shopify does not expose native bundle SKUs for these yet. Each card
-            below is a curated package of real catalog products — labeled
-            honestly as Package or Talk to sales.
-          </p>
+      <section className="hero-plane" style={{ minHeight: "42vh" }}>
+        <div className="hero-plane__media">
+          <Image
+            src="/media/hero/wacky-world.png"
+            alt="Commercial starter packages from Cutting Edge Creations"
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover"
+          />
+        </div>
+        <div className="hero-plane__shade" />
+        <div className="hero-plane__content mx-auto flex min-h-[42vh] max-w-6xl items-end px-4 pb-10 pt-14 sm:px-6">
+          <div className="max-w-3xl text-white">
+            <p className="eyebrow text-primary">Packages</p>
+            <h1 className="headline-hero mt-3 text-4xl text-white sm:text-5xl">
+              Commercial starter packages
+            </h1>
+            <p className="mt-4 max-w-2xl text-base leading-snug text-white/90">
+              Shopify does not expose native bundle SKUs for these yet. Each card
+              below is a curated package of real catalog products — labeled
+              honestly as Package or Talk to sales.
+            </p>
+          </div>
         </div>
       </section>
 

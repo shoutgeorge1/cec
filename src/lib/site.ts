@@ -11,15 +11,40 @@ export const siteConfig = {
   tagline: "Commercial inflatables for sale — request a quote.",
 } as const;
 
-export const navLinks = [
-  { href: "/commercial-bounce-houses", label: "Bounce Houses" },
-  { href: "/commercial-water-slides", label: "Water Slides" },
-  { href: "/inflatable-obstacle-courses", label: "Obstacle Courses" },
-  { href: "/packages", label: "Packages" },
-  { href: "/wholesale", label: "Wholesale" },
-  { href: "/products", label: "Products" },
-  { href: "/about", label: "About" },
-  { href: "/contact", label: "Contact" },
+/** Grouped nav for mobile drawer hierarchy. */
+export const navGroups = [
+  {
+    label: "Shop",
+    links: [
+      { href: "/commercial-bounce-houses", label: "Bounce Houses" },
+      { href: "/commercial-water-slides", label: "Water Slides" },
+      { href: "/inflatable-obstacle-courses", label: "Obstacles" },
+    ],
+  },
+  {
+    label: "Buy",
+    links: [
+      { href: "/packages", label: "Packages" },
+      { href: "/wholesale", label: "Wholesale" },
+      { href: "/products", label: "Products" },
+    ],
+  },
+  {
+    label: "Company",
+    links: [
+      { href: "/about", label: "About" },
+      { href: "/contact", label: "Contact" },
+    ],
+  },
+] as const;
+
+/** Flat primary links (desktop strip + sitemap helpers). */
+export const navLinks = navGroups.flatMap((group) => [...group.links]);
+
+/** Desktop primary: shop + buy only — About/Contact live in the drawer + footer. */
+export const desktopNavLinks = [
+  ...navGroups[0].links,
+  ...navGroups[1].links,
 ] as const;
 
 export const categoryPages = [

@@ -267,11 +267,26 @@ async function fetchStorefrontProducts(
   }
 }
 
+import mediaManifest from "../../public/media/manifest.json";
+
+const localByHandle: Record<string, string> = Object.fromEntries(
+  (mediaManifest as { handle: string; local: string }[]).map((row) => [
+    row.handle,
+    row.local,
+  ]),
+);
+
 /** Attach locally mirrored media when handle matches downloaded assets. */
 function attachLocalMedia(products: ShopifyProduct[]): ShopifyProduct[] {
-  // Lazy require-style: read manifest if present at build/runtime via known paths
-  // Handled in callers that already know local paths; keep pure mapping here.
-  return products;
+  return products.map((p) => {
+    const local = localByHandle[p.handle] ?? null;
+    return {
+      ...p,
+      imageLocal: local,
+      // Prefer CDN when present; fall back to local mirror so cards never blank.
+      imageUrl: p.imageUrl || local,
+    };
+  });
 }
 
 /**
