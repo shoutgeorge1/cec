@@ -31,14 +31,14 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-[var(--line)] bg-white/95 backdrop-blur-sm">
-      <div className="mx-auto flex max-w-6xl items-center gap-3 px-4 py-3 sm:gap-4 sm:px-6">
-        <Link href="/" className="flex min-w-0 shrink-0 items-center gap-2.5">
+      <div className="mx-auto flex max-w-6xl items-center gap-2 px-4 py-3 sm:gap-4 sm:px-6">
+        <Link href="/" className="flex min-w-0 flex-1 items-center gap-2.5 lg:flex-none">
           <Image
             src="/media/brand/desktop-logo.png"
             alt={siteConfig.name}
             width={180}
             height={47}
-            className="h-8 w-auto sm:h-9"
+            className="h-8 w-auto max-w-[min(100%,9.5rem)] sm:h-9 sm:max-w-none"
             priority
           />
           <span className="font-nav hidden text-[10px] font-bold uppercase tracking-[0.16em] text-ink-muted xl:block">
@@ -46,7 +46,7 @@ export function Header() {
           </span>
         </Link>
 
-        <div className="ml-auto flex shrink-0 items-center gap-2 sm:gap-3">
+        <div className="flex shrink-0 items-center gap-2 sm:gap-3">
           <nav
             aria-label="Primary"
             className="font-nav hidden items-center gap-0.5 text-[11px] font-bold uppercase tracking-[0.06em] text-ink lg:flex"
@@ -66,15 +66,14 @@ export function Header() {
 
           <Link
             href="/request-a-quote"
-            className="btn-primary !px-3 !py-2 !text-[10px] sm:!px-3.5 sm:!py-2.5 sm:!text-[11px]"
+            className="btn-primary hidden !px-3.5 !py-2.5 !text-[11px] sm:inline-flex"
           >
-            <span className="sm:hidden">Quote</span>
-            <span className="hidden sm:inline">Request a quote</span>
+            Request a quote
           </Link>
 
           <button
             type="button"
-            className="inline-flex h-10 w-10 items-center justify-center border border-[var(--line)] text-ink transition hover:border-tertiary hover:text-tertiary lg:hidden"
+            className="inline-flex h-10 w-10 shrink-0 items-center justify-center border border-[var(--line)] text-ink transition hover:border-tertiary hover:text-tertiary lg:hidden"
             aria-expanded={open}
             aria-controls={panelId}
             aria-label={open ? "Close menu" : "Open menu"}
