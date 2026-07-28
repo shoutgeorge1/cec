@@ -29,7 +29,7 @@ export function Footer() {
             {categoryPages.map((page) => (
               <li key={page.href}>
                 <Link href={page.href} className="hover:text-tertiary">
-                  {page.title}
+                  {page.navLabel}
                 </Link>
               </li>
             ))}

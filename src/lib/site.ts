@@ -11,46 +11,32 @@ export const siteConfig = {
   tagline: "Commercial inflatables for sale — request a quote.",
 } as const;
 
-/** Grouped nav for mobile drawer hierarchy. */
-export const navGroups = [
-  {
-    label: "Shop",
-    links: [
-      { href: "/commercial-bounce-houses", label: "Bounce Houses" },
-      { href: "/commercial-water-slides", label: "Water Slides" },
-      { href: "/inflatable-obstacle-courses", label: "Obstacles" },
-    ],
-  },
-  {
-    label: "Buy",
-    links: [
-      { href: "/packages", label: "Packages" },
-      { href: "/wholesale", label: "Wholesale" },
-      { href: "/products", label: "Products" },
-    ],
-  },
-  {
-    label: "Company",
-    links: [
-      { href: "/about", label: "About" },
-      { href: "/contact", label: "Contact" },
-    ],
-  },
+/**
+ * Primary nav — clean human labels only (not SEO page titles).
+ * Same list drives desktop strip and mobile drawer.
+ */
+export const primaryNavLinks = [
+  { href: "/commercial-bounce-houses", label: "Bounce Houses" },
+  { href: "/commercial-water-slides", label: "Water Slides" },
+  { href: "/inflatable-obstacle-courses", label: "Obstacle Courses" },
+  { href: "/wholesale", label: "Wholesale" },
+  { href: "/products", label: "Products" },
+  { href: "/packages", label: "Packages" },
+  { href: "/about", label: "About" },
+  { href: "/contact", label: "Contact" },
 ] as const;
 
-/** Flat primary links (desktop strip + sitemap helpers). */
-export const navLinks = navGroups.flatMap((group) => [...group.links]);
+/** @deprecated Prefer primaryNavLinks — kept for sitemap helpers. */
+export const navLinks = primaryNavLinks;
 
-/** Desktop primary: shop + buy only — About/Contact live in the drawer + footer. */
-export const desktopNavLinks = [
-  ...navGroups[0].links,
-  ...navGroups[1].links,
-] as const;
+/** @deprecated Prefer primaryNavLinks. */
+export const desktopNavLinks = primaryNavLinks;
 
 export const categoryPages = [
   {
     href: "/commercial-bounce-houses",
     title: "Commercial Bounce Houses",
+    navLabel: "Bounce Houses",
     blurb: "Fleet-ready jumpers sized and built for rental volume.",
     image: "/media/categories/monster-truck.png",
     keywordsHint: "commercial bounce house · bounce house for sale",
@@ -58,6 +44,7 @@ export const categoryPages = [
   {
     href: "/commercial-water-slides",
     title: "Commercial Water Slides",
+    navLabel: "Water Slides",
     blurb: "Wet/dry slides that drive summer bookings and high ticket rentals.",
     image: "/media/hero/barnyard-breakout-slide.jpg",
     keywordsHint: "commercial water slide · inflatable water slide for sale",
@@ -65,6 +52,7 @@ export const categoryPages = [
   {
     href: "/inflatable-obstacle-courses",
     title: "Inflatable Obstacle Courses",
+    navLabel: "Obstacle Courses",
     blurb: "Race courses and interactives for festivals, FECs, and corporate events.",
     image: "/media/categories/obstacle.png",
     keywordsHint: "inflatable obstacle course · commercial obstacle course",
@@ -72,6 +60,7 @@ export const categoryPages = [
   {
     href: "/wholesale",
     title: "Wholesale & Fleet Packages",
+    navLabel: "Wholesale",
     blurb: "Talk to sales about multi-unit buys, starter fleets, and custom builds.",
     image: "/media/categories/custom.png",
     keywordsHint: "wholesale inflatables · commercial inflatables for sale",
